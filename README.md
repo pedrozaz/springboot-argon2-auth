@@ -1,6 +1,6 @@
-### Argon2 Criptography implementation.
+# Argon2 Criptography implementation.
 
-# Tools
+## Tools
 
 - Postgresql
 - Spring Boot Framework
