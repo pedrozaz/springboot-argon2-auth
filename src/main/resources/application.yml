@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: argon2-auth
+
+  datasource:
+    url: jdbc:postgres://localhost:5432/argon_auth
+    username: admin
+    password: admin
+
+  jpa:
+    hibernate:
+      ddl-auto: update
