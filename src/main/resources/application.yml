@@ -3,10 +3,15 @@ spring:
     name: argon2-auth
 
   datasource:
-    url: jdbc:postgres://localhost:5432/argon_auth
+    url: jdbc:postgresql://localhost:5432/argon_auth
     username: admin
     password: admin
+    driver-class-name: org.postgresql.Driver
 
   jpa:
     hibernate:
       ddl-auto: update
+
+
+  main:
+    allow-bean-definition-overriding: true
